@@ -13,8 +13,8 @@ BUILDDIR ?= $(CURDIR)/build
 SIMAPP = ./app
 HTTPS_GIT := https://github.com/evmos/ethermint.git
 DOCKER := $(shell which docker)
-NAMESPACE := ghcr.io/abelianl2
-PROJECT := abe-node
+NAMESPACE := ghcr.io/qday-io/
+PROJECT := qday-da-node
 DOCKER_IMAGE := $(NAMESPACE)/$(PROJECT)
 COMMIT_HASH := $(shell git rev-parse --short=7 HEAD)
 DATE=$(shell date +%Y%m%d-%H%M%S)
