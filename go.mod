@@ -1,6 +1,6 @@
 module github.com/evmos/ethermint
 
-go 1.22.0
+go 1.23
 
 toolchain go1.24.2
 
@@ -36,7 +36,7 @@ require (
 	github.com/stretchr/testify v1.10.0
 	github.com/tendermint/tendermint v0.34.27
 	github.com/tendermint/tm-db v0.6.7
-	github.com/tidwall/gjson v1.14.4
+	github.com/tidwall/gjson v1.19.0
 	github.com/tidwall/sjson v1.2.5
 	github.com/tyler-smith/go-bip39 v1.1.0
 	golang.org/x/net v0.33.0
